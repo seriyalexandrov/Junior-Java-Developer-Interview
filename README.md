@@ -27,13 +27,60 @@
      - Преимущества по сравнению с распечаткой
      - Примеры современных бибиотек Java
      
+## Java Basics
+ - Байткод, Java-машина, Garbage Collector
+ - Типы данных, переменные, массивы, autoboxing
+ - If, while, for, break, continue, return, switch-case
+ - Классы, поля, методы, объекты, интерфейсы, this, super
+ - Перегрузка(Overload) методов, аргументы функций
+ - Static, final
+ - Вложенные классы, виды, применение
+ - Exceptions
+   - checked/uncheked
+   - throw, throws, try, catch, finally
+   - try-with-resources
+   - stacktrace, анализ stacktrace
+ - Модификаторы доступа
+ - Enums
+ - Класс Object
+ - Классы String, StringBuilder, StringBuffer
+ - Интернирование строк
+ - Equals и HashCode
+ - Generics
+ - Java Collections - принципы работы, сложность операций. 
+   - Иерархия классов
+   - Map (HashMap)
+   - Set (HashSet, TreeSet)
+   - List (ArrayList, LinkedList)
+ - Serialization/Marshalling
+ - Reflection. Создание объектов, вызов методов, доступ к полям
+ - Java I/O
 
+## Java Advanced
+ - Multitheading
+   - JMM - понимание что, зачем
+   - Классы Thread, Runnable
+   - Кэши процессора, барьеры
+   - synchronized, final, volatile, мониторы
+   - wait/notify/notify all
+   - Прерывание потоков, interrupted, InterruptedException
+   - Thread-safe Collections
+     - synchronizedList,Map, etc.
+     - ConcurrentHashMap
+     - CopyOnWriteArrayList
+     - BlockingQueue
+   - Executor, Thread-pool
+   - ThreadLocal
+   - Semaphore, CountDownLatch, CyclicBarrier
+   - Locks, ReentrantLock, ReentrantReadWriteLock, Fair/Unfair
+   
+   
+ 
 ## Объектно-Ориентированное программирование
-
  - Парадигмы
-   - Инкапсуляция
-   - Наследование
-   - Полиморфизм
+   - Инкапсуляция, реализация в Java
+   - Наследование, реализация в Java
+   - Полиморфизм, реализация в Java
  - Принципы проектирования программного кода
    - SOLID
  - Инверсия зависимостей
@@ -114,3 +161,5 @@
   - Иерархические запросы
   - Агрегатные функции
   - Аналитические функции
+  
+  
