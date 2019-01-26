@@ -37,6 +37,13 @@
    - Назначение прав
    - Подключение ssh/sftp/telnet
    - Сетевой анализ: ping, traceroute, ifconfig
+ - Методологии разработки
+   - Waterfall - обзорно
+   - Agile (Scrum) - обзорно
+ - IT проект
+   - Роли: Project Manager, Product Owner, Stackeholder, Technical Manager, Dev Lead, Lead BA, QA Lead, Dev, BA, RE, QA
+   - Фазы проекта: analysis, PoC/Demo, design, build, test, svt, uat, deployment, production
+ - Практики разработки: DevOps, Continious Integration, Continious Delivery
      
 ## Java Basics
  - Байткод, Java-машина, Garbage Collector
@@ -178,6 +185,10 @@
     - Виртуальные машины
     - Linux-контейнеры (LXC например)
     - Docker
+  - Микросервисная архитектура
+    - Принципы
+  - Масштабирование/Scalability (Вертикальное и горизонтальное мастабирование)
+  - High Availability
   
 
  ## Реляционные БД, SQL
@@ -209,3 +220,12 @@
   - Архивы (7Zip)
   - Wireshark, tcpdump
   - FTP-клиенты (Winscp, etc)
+
+## Frontend
+  - HTML, веб-страница
+  - Стилизация, CSS
+  - Javascript, применение
+  - Взаимодействие Web-браузера и backend, HTTP запросы, синхронные и асинхронные
+  - Уведомления от сервера (пуш-уведомления). Механизмы работы: polling, long-polling, notifications. Общее понимание notifications, протоколы websocket, SSE - обзорно
+  - Современный веб: динамические страницы, single page application. Обзор на примере современного JS фреймворка (Angular, React, Vue etc)
+  - Отладка web приложения, консоль браузера
