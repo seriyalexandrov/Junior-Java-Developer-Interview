@@ -80,7 +80,7 @@
    
 
 ## Java Advanced
- - Multitheading
+ - Multithreading
    - JMM - понимание что, зачем
    - Классы Thread, Runnable
    - Кэши процессора, барьеры
